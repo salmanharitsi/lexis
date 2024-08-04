@@ -3047,7 +3047,7 @@ section,
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
-  margin-top: 15px;
+  margin-top: 40px;
 }
 
 .btn-demo:hover {
@@ -3104,4 +3104,22 @@ section,
   -webkit-transition: box-shadow 0.2s ease-in;
   -moz-transition: box-shadow 0.2s ease-in;
   transition: box-shadow 0.2s ease-in;
+}
+
+.hero-text h2{
+  font-size: 80px;
+}
+
+@media only screen and (max-width:990px){
+  .hero-text h2{
+    font-size: 35px;
+  }
+
+  .hero-text p{
+    font-size: 17px;
+  }
+
+  .btn-demo {
+    padding: 10px 30px;
+  }
 }
